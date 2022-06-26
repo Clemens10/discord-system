@@ -8,7 +8,6 @@ import org.javacord.api.entity.user.User;
 import org.javacord.api.event.message.reaction.ReactionAddEvent;
 import org.javacord.api.listener.message.reaction.ReactionAddListener;
 
-import javax.naming.Name;
 import java.awt.*;
 import java.io.File;
 

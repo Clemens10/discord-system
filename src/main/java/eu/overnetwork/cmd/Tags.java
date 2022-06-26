@@ -3,15 +3,12 @@ package eu.overnetwork.cmd;
 import eu.overnetwork.cfg.Settings;
 import eu.overnetwork.util.CustomEmbedBuilder;
 import org.javacord.api.entity.channel.TextChannel;
-import org.javacord.api.entity.message.Message;
 import org.javacord.api.entity.message.MessageBuilder;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
-import org.javacord.api.entity.user.User;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.javacord.api.listener.message.MessageCreateListener;
 
 import java.io.File;
-import java.util.concurrent.CompletableFuture;
 
 public class Tags implements MessageCreateListener {
 

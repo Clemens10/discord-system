@@ -7,7 +7,7 @@ import org.javacord.api.listener.message.MessageCreateListener;
 
 import java.awt.*;
 
-public class Rollen implements MessageCreateListener {
+public class Groups implements MessageCreateListener {
     /**
      * @param event
      */

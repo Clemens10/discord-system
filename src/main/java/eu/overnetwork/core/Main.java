@@ -1,8 +1,7 @@
 package eu.overnetwork.core;
 
-import eu.overnetwork.listeners.*;
 import eu.overnetwork.cfg.Settings;
-import com.vdurmont.emoji.EmojiParser;
+import eu.overnetwork.listeners.*;
 import eu.overnetwork.music.audio.PlayerManager;
 import eu.overnetwork.music.commands.LeaveCommand;
 import eu.overnetwork.music.commands.PlayCommand;
@@ -15,15 +14,6 @@ import eu.overnetwork.reaction.VerifyRemove;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
-import org.javacord.api.entity.channel.TextChannel;
-import org.javacord.api.entity.message.Message;
-import org.javacord.api.entity.message.embed.EmbedBuilder;
-import org.javacord.api.entity.server.Server;
-import org.javacord.api.entity.user.User;
-import org.javacord.api.interaction.MessageComponentInteraction;
-
-import java.awt.*;
-import java.util.*;
 
 public class Main {
 
@@ -53,7 +43,7 @@ public class Main {
 
         api.addMessageCreateListener(new VerifyListener());
         api.addListener(new Ping());
-        api.addListener(new Rollen());
+        api.addListener(new Groups());
         api.addListener(new Language());
         api.addListener(new PlayCommand());
         api.addListener(new SkipCommand());

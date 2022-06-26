@@ -35,4 +35,5 @@ public class Settings {
     private String RPCURL = "https://youtube.com/watch?v=HtqvyKxD8gY?t=806";
     private String PROFILE = "https://raw.githubusercontent.com/mrtuxa/bot-images/main/over-hosting_new.png";
     private String database = "Test";
+    private String verify = null;
 }
